@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name = "MapboxSceneKit"
-  s.version = "0.1.0"
+  s.version = "0.2.0"
   s.summary = "Scene Kit toolkit for Mapbox."
 
   s.description  = "Using Swift, bringing our rich 3D terrain into your iOS app is easy. 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "12.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.module_name = "MapboxSceneKit"
 
-  s.dependency "MapboxMobileEvents", "~> 0.4"
+  s.dependency "MapboxMobileEvents"
 
   # `swift_version` was introduced in CocoaPods 1.4.0. Without this check, if a user were to
   # directly specify this podspec while using <1.4.0, ruby would throw an unknown method error.
